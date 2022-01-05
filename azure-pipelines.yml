@@ -10,13 +10,6 @@ resources:
 
 variables:
 
-  # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'd76b251d-b14e-4240-98e1-96caa0d0891c'
-  imageRepository: 'nobsdevopsbookresources'
-  containerRegistry: 'nobsreg92.azurecr.io'
-  dockerfilePath: '**/Part-II-Project/New Application/Dockerfile/Dockerfile'
-  tag: '$(Build.BuildId)'
-  imagePullSecret: 'nobsreg927e80-auth'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
